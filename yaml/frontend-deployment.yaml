@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/cultivated-cove-225317/backend:cv-backend-2 
+        image: gcr.io/cultivated-cove-225317/frontend:cv-frontend-2 
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
